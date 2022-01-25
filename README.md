@@ -26,3 +26,8 @@
 This error persists regardless of enforced plugin order.
 
 I could not find any leads as to how to go about fixing this incompatibility, and any help will be appreciated.
+
+---
+
+[Interactive Stackblitz project](https://stackblitz.com/github/5310/issue_vitejs-rollup-plugin-inline-postcss)
+[GitHub Discussion post](https://github.com/vitejs/vite/discussions/6621)
