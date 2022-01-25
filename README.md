@@ -1,4 +1,4 @@
- This repository reproduces a Rollup plugin to preprocess CSS within tagged template literals with PostCSS that is incompatible with Vite.
+ This repository reproduces a Vite incompatibile Rollup plugin [rollup-plugin-inline-postcss](https://github.com/steveblue/rollup-plugin-inline-postcss) that preprocess CSS within tagged template literals with PostCSS.
  
  The plugin functions as expected when building with Vite (`vite preview`).
  
@@ -22,5 +22,7 @@
       at Array.map (<anonymous>)
       at TransformContext.transform (/mnt/Active/Projects/Personal/scratchpad/issue/issue_vitejs-rollup-plugin-inline-postcss/node_modules/rollup-plugin-inline-postcss/index.js:62:44)
 ```
+
+This error persists regardless of enforced plugin order.
 
 I could not find any leads as to how to go about fixing this incompatibility, and any help will be appreciated.
