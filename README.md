@@ -3,6 +3,7 @@
  The plugin functions as expected when building with Vite (`vite preview`).
  
  However, it throws in dev mode (`vite dev`) with:
+ 
  ```
  12:45:21 pm [vite] Internal server error: /mnt/Active/Projects/Personal/scratchpad/issue/issue_vitejs-rollup-plugin-inline-postcss/node_modules/.vite/lit.js?v=98f0f383:1:2: Unknown word
   Plugin: inline-postcss
@@ -29,5 +30,5 @@ I could not find any leads as to how to go about fixing this incompatibility, an
 
 ---
 
-[Interactive Stackblitz project](https://stackblitz.com/github/5310/issue_vitejs-rollup-plugin-inline-postcss)
-[GitHub Discussion post](https://github.com/vitejs/vite/discussions/6621)
+- [Interactive Stackblitz project](https://stackblitz.com/github/5310/issue_vitejs-rollup-plugin-inline-postcss)
+- [GitHub Discussion post](https://github.com/vitejs/vite/discussions/6621)
